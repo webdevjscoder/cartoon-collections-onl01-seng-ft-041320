@@ -5,7 +5,7 @@ def roll_call_dwarves(array)# code an argument here
     order << "#{number}. #{name}"
     i += 1
   end
-  puts 
+  puts order
   # Your code here
 end
 
