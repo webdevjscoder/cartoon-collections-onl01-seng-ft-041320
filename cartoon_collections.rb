@@ -23,7 +23,7 @@ def long_planeteer_calls(calls)# code an argument here
 end
 
 def find_the_cheese(cheese)# code an argument here
-  if cheese.find? do |food|
+  if cheese.find do |food|
     "#{food}"
   end
   else
