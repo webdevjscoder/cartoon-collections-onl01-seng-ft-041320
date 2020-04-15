@@ -1,7 +1,5 @@
 def roll_call_dwarves(array)# code an argument here
   puts array
-  
-  end
   # Your code here
 end
 
