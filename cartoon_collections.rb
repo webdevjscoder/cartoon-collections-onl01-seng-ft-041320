@@ -24,7 +24,11 @@ end
 
 def find_the_cheese(cheese)# code an argument here
   if cheese.find do |food|
-    food.cheese?
+    "#{food}"
+  end
+  else
+    nil 
+  end
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
