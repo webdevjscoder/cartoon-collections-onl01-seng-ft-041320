@@ -27,7 +27,6 @@ def find_the_cheese(array)# code an argument here
  cheese_types = ["cheddar", "gouda", "camembert"]
  if cheese_types.find { |cheese| cheese.first? }
    "#{cheese}"
-  end
   else
     nil 
   end
