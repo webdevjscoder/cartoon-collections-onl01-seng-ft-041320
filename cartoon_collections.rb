@@ -6,7 +6,7 @@ def roll_call_dwarves(array)# code an argument here
     number = 1
     array.collect do |name|
       order << "#{number}. #{name}"
-      i += 1
+      number += 1
    end
     puts order
   end
