@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)# code an argument here
   number = 1
-  array.
+  array.collect do ||
   # Your code here
 end
 
