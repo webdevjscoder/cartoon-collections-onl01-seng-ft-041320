@@ -1,15 +1,9 @@
 def roll_call_dwarves(array)# code an argument here
-  order = []
-  if array.empty?
-    puts "Empty!?"
-  else
-    number = 1
-    array.collect do |name|
-      order << "#{number}. #{name}"
-      number += 1
+  number = 1
+  array.collect do |name|
+    order << "#{number}. #{name}"
+    number += 1
    end
-    puts order
-  end
   # Your code here
 end
 
